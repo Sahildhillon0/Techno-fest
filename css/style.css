@@ -109,7 +109,7 @@ body{
 .text-second{
     color: #7e22ce;
     /* border: 2px solid; */
-    width: 180px;
+    width: 200px;
 }
 
 .text-second::before{
@@ -124,7 +124,7 @@ body{
     width: 100%;
     background-color: lightgray;
     border-left: 3px solid #7e22ce;
-    animation: animate 4s steps(15) infinite;
+    animation: animate 2s steps(15) infinite;
 }
 
 @keyframes animate{

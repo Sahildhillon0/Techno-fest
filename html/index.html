@@ -33,7 +33,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat, harum sapiente fuga modi veritatis!</p>
             </div>
             
-            <div class="floatr" style="clip-path: polygon(20% 0px, 100% 0%, 100% 100%, 0px 100%);">
+            <div class="floatr" style="clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);">
 
             </div>
         </div>
@@ -129,5 +129,22 @@
             </div>
         </div>
     </footer>
+    <script>
+        const text = document.querySelector(".text-second");
+        
+        const textload = () => {
+            setTimeout(() => {
+                text.textContent = "Tech-Event";
+            },0);
+            setTimeout(() => {
+                text.textContent = "Cultural-Event";
+            },2000);
+            setTimeout(() => {
+                text.textContent = "Sports-Event";
+            },4000);
+        }
+        textload();
+        setInterval(textload,6000);
+    </script>
 </body>
 </html>
