@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #f4f4f4;
+    background-color: lightgrey;
 }
 
 .ani{
@@ -100,6 +100,42 @@ body{
     box-shadow: 0 10px 10px -10px gray;
 }
 
+.text{
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+}
+
+.text-second{
+    color: #7e22ce;
+    /* border: 2px solid; */
+    width: 180px;
+}
+
+.text-second::before{
+    /* display:block; */
+    content: "";
+    color: #7e22ce;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    border-left: 3px solid #7e22ce;
+    animation: animate 4s steps(15) infinite;
+}
+
+@keyframes animate{
+    40%, 60% {
+        left:100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
 .floatl{
     /* border: 2px solid blue; */
     width: 48%;
@@ -128,9 +164,10 @@ body{
     background: url("../images/cambg_2.jpg") no-repeat;
     background-size: cover;
     /* border-radius: 10px; */
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /* border-bottom-left-radius: 10px; */
+    /* border-bottom-right-radius: 10px; */
     box-shadow: 0 10px 10px -10px gray;
+    object-fit: cover;
 }
 
 .categories{
