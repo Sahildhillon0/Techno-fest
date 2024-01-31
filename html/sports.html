@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech-Fusion</title>
+    <title>Events</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -11,11 +11,8 @@
         <nav>
             <div class="container ani"> 
                 <div class="nava">
-                    <div class="blank">
-                        <a href="#"><img src="../images/logo.png" alt="logo" height="60px" width="200px"></a>
-                    </div>
+                    <a href="#"><img src="../images/logo.png" alt="logo" height="60px"></a>
                 </div>
-
                 <div class="navf">
                     <div class="Home navbtn">
                         <p><a id="hm" class="link" href="index.html">Home</a></p>
@@ -27,33 +24,13 @@
             </div>
         </nav>
     </header>
-    <section class="showcase">
-        <div class="show">
-            <div class="floatl">
-                <h1> Welcome to <span class="highlight">TECH-FUSION</span></h1>
-                <span class="text text-first">Register for </span>
-                <div class="text text-second">Tech-Events</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat, harum sapiente fuga modi veritatis!</p>
-            </div>
-            
-            <div class="floatr" style="clip-path: polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);">
-
-            </div>
-        </div>
-    </section>
-
+    <div class="eve"><h1><span class="highlight">Sports</span> EVENTS</h1></div>
     <section class="categories">
-        <div class="list ani">
-            
-            <h1>
-                <span class="highlight">FUSION</span> EVENTS
-            </h1>
-        </div>
         <div class="boxes ani">
-            <a class="a_boxes" href="tech.html">
+            <a class="a_boxes" href="events.html">
                 <div class="box">
                     <div class="heading">
-                        <h1><span class="light">Technical Events</span></h1>
+                        <h1><span class="light">Couple Cricket</span></h1>
                     </div>
                     <div class="content">
                         <p class="text_content">
@@ -62,10 +39,10 @@
                     </div>
                 </div>
             </a>
-            <a class="a_boxes" href="cultural.html">
+            <a class="a_boxes" href="#">
                 <div class="box">
                     <div class="heading">
-                        <h1><span class="light">Cultural Events</span></h1>
+                        <h1><span class="light">Table Tennis</span></h1>
                     </div>
                     <div class="content">
                         <p class="text_content">
@@ -74,10 +51,22 @@
                     </div>
                 </div>
             </a>
-            <a class="a_boxes" href="sports.html">
+            <a class="a_boxes" href="#">
                 <div class="box">
                     <div class="heading">
-                        <h1><span class="light">Sports Events</span></h1>
+                        <h1><span class="light">Chess</span></h1>
+                    </div>
+                    <div class="content">
+                        <p class="text_content">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim quos tempora corporis officiis. Saepe neque libero odit nulla ipsam quisquam maxime placeat sapiente facilis. Nisi!
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a class="a_boxes" href="#">
+                <div class="box">
+                    <div class="heading">
+                        <h1><span class="light">Badminton</span></h1>
                     </div>
                     <div class="content">
                         <p class="text_content">
@@ -135,22 +124,5 @@
             </div>
         </div>
     </footer>
-    <script>
-        const text = document.querySelector(".text-second");
-        
-        const textload = () => {
-            setTimeout(() => {
-                text.textContent = "Tech-Event";
-            },0);
-            setTimeout(() => {
-                text.textContent = "Cultural-Event";
-            },2000);
-            setTimeout(() => {
-                text.textContent = "Sports-Event";
-            },4000);
-        }
-        textload();
-        setInterval(textload,6000);
-    </script>
 </body>
 </html>

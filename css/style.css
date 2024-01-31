@@ -3,8 +3,10 @@
 }
 
 body{
-    background-color: lightgrey;
+    background-color: white;
 }
+
+
 
 .ani{
     animation: techni;
@@ -24,17 +26,25 @@ body{
     /* border: 2px solid black; */
     display: flex;
     width: 90%;
+    /* height: ; */
     margin: auto;
     padding-bottom: 5px;
     border-bottom: 2px solid grey;
-    box-shadow: 0px 10px 10px -10px grey;
+    box-shadow: 0px 10px 10px -10px #7e22ce;
+}
+
+.blank{
+    /* min-width: 20%; */
+    margin-left: -25px;
+    margin-right: 25px;
 }
 
 .nava{
-    width: 85%;
+    /* min-width: 80%; */
     font-size: 24px;
     font-weight: 700;
     color: #7e22ce;
+
 }
 
 .nava a{
@@ -48,12 +58,18 @@ body{
 }
 
 .Home{
+    margin-top: 17px;
+    height: 30px;
     width:5%;
     font-size: 20px;
     /* border: 2px solid red; */
-    width:90px ;
+    width:80px ;
     font-weight: 700;
     text-align: center;
+}
+
+.home p{
+    /* transform: translateY(-10px); */
 }
 
 .Home:hover{
@@ -65,10 +81,12 @@ body{
 }
 
 .Register{
+    margin-top: 17px;
+    height: 30px;
     width: 5%;
     font-size: 20px;
     /* border: 2px solid red; */
-    width: 115px;
+    width: 100px;
     font-weight: 700;
     text-align: center;
 }
@@ -97,7 +115,7 @@ body{
     margin: auto;
     border-bottom: 2px solid gray;
     padding-bottom: 12px;
-    box-shadow: 0 10px 10px -10px gray;
+    box-shadow: 0 10px 10px -10px #7e22ce;
 }
 
 .text{
@@ -122,7 +140,7 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: lightgray;
+    background-color: white;
     border-left: 3px solid #7e22ce;
     animation: animate 2s steps(15) infinite;
 }
@@ -161,12 +179,12 @@ body{
     width: 50%;
     height: 100%;
     float: right;
-    background: url("../images/cambg_2.jpg") no-repeat;
+    background: url("../images/vector-DEC-2020-52_generated.jpg") no-repeat;
     background-size: cover;
     /* border-radius: 10px; */
     /* border-bottom-left-radius: 10px; */
     /* border-bottom-right-radius: 10px; */
-    box-shadow: 0 10px 10px -10px gray;
+    box-shadow: 0 10px 10px -10px #7e22ce;
     object-fit: cover;
 }
 
@@ -181,46 +199,47 @@ body{
 .list{
     text-align: center;
     font-size: 24px;
-    border-bottom: 2px solid gray;
-    box-shadow: 0 10px 10px -10px gray;
+    /* border-bottom: 2px solid gray; */
+    /* box-shadow: 0 10px 10px -10px #7e22ce; */
 }
 
 .boxes{
     display: flex;
+    /* color:#000; */
     justify-content: center;
     gap: 90px;
     flex-wrap: wrap;
     border-bottom: 2px solid black;
-    box-shadow: 0 10px 10px -10px gray;
+    box-shadow: 0 10px 10px -10px #7e22ce;
     padding-bottom: 20px;
 }
 
 .box{
-    background-color: #1e2630;
+    background-color: white;
     height: 350px;
     width: 300px;
     margin: 5px;
-    margin-top: 35px;
+    margin-top: 5px;
     border-radius: 10px;
     transition-duration: 250ms;
-    box-shadow: -4px 4px 10px 4px #1e2630;
+    box-shadow: -4px 4px 5px 4px #7e22ce;
 }
 
 .box:hover{
     transform: scale(1.1);
     transition-duration: 250ms;
-    box-shadow: 0 0 60px #1e2630;
+    box-shadow: 0 0 60px #7e22ce;
 }
 
 .heading{
     text-align: center;
     border-bottom: 1px solid white;
-    box-shadow: 0 10px 10px -10px white;
+    box-shadow: 0 10px 10px -10px #7e22ce;
     padding-top: 1px;
 }
 
 .light{
-    color:white;
+    color:black;
     font-weight: 800;
 }
 
@@ -232,7 +251,7 @@ body{
 }
 
 .text_content{
-    color: white;
+    color: black;
 }
 
 .a_boxes{
@@ -290,7 +309,7 @@ body{
     border-top: 2px solid #000;
     width: 90%;
     margin: auto;
-    box-shadow: 0 -10px 10px -10px grey;
+    box-shadow: 0 -10px 10px -10px #7e22ce;
     /* gap: 90px; */
 }
 
@@ -308,7 +327,7 @@ body{
     width: 60%;
     height: 30%;
     /* border: 2px solid; */
-    margin-left: 130px;
+    margin-left: 50px;
     margin-top: 40px;
 }
 
@@ -358,4 +377,10 @@ body{
 
 .coders ul{
     margin-left: 20%;
+}
+
+/* page 2 */
+
+.eve{
+    text-align: center;
 }
