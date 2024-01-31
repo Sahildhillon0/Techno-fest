@@ -6,6 +6,20 @@ body{
     background-color: #f4f4f4;
 }
 
+.ani{
+    animation: techni;
+    animation-duration: 2s;
+}
+
+@keyframes techni{
+    0%{
+        padding-top: 10%;
+    }
+    100%{
+        padding: 0;
+    }
+}
+
 .container{
     /* border: 2px solid black; */
     display: flex;
