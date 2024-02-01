@@ -6,14 +6,58 @@ body{
     background-color: white;
 }
 
-@media only screen and (max-width: 600px) {
+nav{
+    /* position: fixed; */
+}
+
+@media only screen and (max-width: 710px) {
     .blank{
         /* background-color: #000; */
         /* width: 20%; */
     }
     .nava{
-        width: 30%;
+        width: 110%;
+        /* border: 2px solid #000; */
     }
+    .navf{
+        /* visibility:hidden; */
+        /* width: 0; */
+        /* border: 2px solid black; */
+        width: 0.1px;
+        overflow: hidden;
+    }
+    .home{
+
+    }
+
+    .img{
+        width: 60px;
+    }
+    .Vaish{
+        font-size: 18px;
+        font-weight: 800;
+        margin-left: -7px;
+
+    }
+    .Vaish img{
+        /* transform: translateY(12px); */
+        width: 60px;
+        /* margin-left: 5px; */
+    }
+}
+
+.Vaish{
+    transform: translateY(-12px);
+    /* transform: translateX(-15px); */
+    /* /* width: 40%; */
+    /* display: inline-block; */
+    /* border: 2px solid #000; */
+    color:#000;
+
+}
+
+.Vaish img{
+    transform: translateY(12px);
 }
 
 .ani{
@@ -72,7 +116,7 @@ body{
     font-size: 20px;
     /* border: 2px solid red; */
     width:80px ;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -81,11 +125,13 @@ body{
 }
 
 .Home:hover{
-    background-color: #8a28df;
+    /* background-color: #8a28df; */
+    /* color: #7e22ce; */
 }
 
 .Register:hover{
-    background-color: #8a28df;
+    /* background-color: #8a28df; */
+    /* color: #7e22ce; */
 }
 
 .Register{
@@ -95,12 +141,12 @@ body{
     font-size: 20px;
     /* border: 2px solid red; */
     width: 100px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
 }
 
 .navbtn{
-    background-color:#7e22ce;
+    /* background-color:#7e22ce; */
     color: white;
     border-radius: 8px;
 }
@@ -112,8 +158,12 @@ body{
 }
 
 .link{
-    color: white;
+    color: grey;
     text-decoration: none;
+}
+
+.link:hover{
+    color: #7e22ce;
 }
 
 .show{
@@ -236,7 +286,7 @@ body{
 .box:hover{
     transform: scale(1.1);
     transition-duration: 250ms;
-    box-shadow: 0 0 60px #7e22ce;
+    box-shadow: 0 0 40px #7e22ce;
 }
 
 .heading{
