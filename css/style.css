@@ -392,3 +392,19 @@ body{
 .eve{
     text-align: center;
 }
+
+/* page 3 */
+
+.rule{
+    height: 60vh;
+    border-bottom: 2px solid gray;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0px 10px 10px -10px #7e22ce;
+}
+
+.rewards h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: underline #7e22ce;
+}
