@@ -327,7 +327,7 @@ nav{
 .benefits_box{
     display: flex;
     flex-wrap: wrap;
-    gap:40px;
+    gap:20px;
 }
 
 .b_box{
