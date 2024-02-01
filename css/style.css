@@ -10,6 +10,19 @@ nav{
     /* position: fixed; */
 }
 
+#footer{
+    color: #4d4747;
+}
+
+.cap{
+    font-size:30px;
+    font-weight: 800;
+}
+
+.Vaish{
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 710px) {
     .blank{
         /* background-color: #000; */
@@ -34,7 +47,7 @@ nav{
         width: 60px;
     }
     .Vaish{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 800;
         margin-left: -7px;
 
@@ -44,16 +57,19 @@ nav{
         width: 60px;
         /* margin-left: 5px; */
     }
+    .cap{
+        font-size: 20px;
+        font-weight: 800;
+    }
 }
 
 .Vaish{
-    transform: translateY(-12px);
+    transform: translateY(-10px);
     /* transform: translateX(-15px); */
     /* /* width: 40%; */
     /* display: inline-block; */
     /* border: 2px solid #000; */
-    color:#000;
-
+    color:#4d4747;
 }
 
 .Vaish img{
@@ -160,6 +176,7 @@ nav{
 .link{
     color: grey;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .link:hover{
@@ -167,6 +184,7 @@ nav{
 }
 
 .show{
+    /* background-color:rgba(211, 211, 211, 0.159) ; */
     /* border: 2px solid red; */
     height: 50vh;
     width: 90%;
@@ -174,6 +192,7 @@ nav{
     border-bottom: 2px solid gray;
     padding-bottom: 12px;
     box-shadow: 0 10px 10px -10px #7e22ce;
+    color: #4d4747;
 }
 
 .text{
@@ -254,9 +273,104 @@ nav{
     margin-top: 5px;
 }
 
+.about{
+    /* border:2px solid red; */
+    width: 90%;
+    margin:auto;
+    min-height: 60vh;
+    border-bottom: 2px solid grey;
+    box-shadow:0 10px 10px -10px #7e22ce;
+    background-color: rgba(211, 211, 211, 0.159);
+}
+
+.aboutus{
+    /* border: 2px solid green; */
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+.aboutus h1{
+    color: #4d4747;
+    padding-top: 20px;
+}
+
+.about_content{
+    /* border: 2px solid blue; */
+    width: 90%;
+    margin: auto;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    font-size: large;
+    border-left: 7px solid #7e22ce;
+    padding-left: 20px;
+}
+
+.benefits{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    min-height: 60vh;
+    border-bottom: 2px solid gray;
+    box-shadow: 0 10px 10px -10px #7e22ce;
+    padding-bottom: 25px;
+
+}
+
+.h_benefits{
+    text-align: center;
+    /* border: 2px solid blue; */
+    font-size: 24px;
+    color: #4d4747;
+}
+
+.benefits_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+}
+
+.b_box{
+    /* border: 2px solid pink; */
+    width: 420px;
+    height: 382px;
+    border-radius: 20px;
+    background-color: rgba(211, 211, 211, 0.159);
+}
+
+.b_logo{
+    /* border: 2px solid #7e22ce; */
+    min-height: 6vh;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.b_logo img{
+    border-radius: 25px;
+}
+
+.b_heading{
+    /* border: 2px solid green; */
+    text-align: center;
+    font-size: 20px;
+    color: #4d4747;
+    font-weight: 600;
+}
+
+.b_content{
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    font-size: large;
+    text-align: center;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .list{
     text-align: center;
     font-size: 24px;
+    color: #4d4747;
     /* border-bottom: 2px solid gray; */
     /* box-shadow: 0 10px 10px -10px #7e22ce; */
 }
@@ -281,6 +395,7 @@ nav{
     border-radius: 10px;
     transition-duration: 250ms;
     box-shadow: -4px 4px 5px 4px #7e22ce;
+    background-color:rgba(211, 211, 211, 0.159) ;
 }
 
 .box:hover{
@@ -297,7 +412,7 @@ nav{
 }
 
 .light{
-    color:black;
+    color: #4d4747;
     font-weight: 800;
 }
 
@@ -309,7 +424,8 @@ nav{
 }
 
 .text_content{
-    color: black;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .a_boxes{
@@ -323,6 +439,7 @@ nav{
     margin: auto;
     /* border-top: 2px solid grey; */
     margin-top: 10px;
+    color: #4d4747;
     /* box-shadow: 0 -10px 10px -10px grey; */
 }
 
