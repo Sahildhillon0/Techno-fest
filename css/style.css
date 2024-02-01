@@ -78,7 +78,7 @@ nav{
 
 .ani{
     animation: techni;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 
 @keyframes techni{
@@ -99,6 +99,7 @@ nav{
     padding-bottom: 5px;
     border-bottom: 2px solid grey;
     box-shadow: 0px 10px 10px -10px #7e22ce;
+    background-color: rgba(211, 211, 211, 0.159);
 }
 
 .blank{
@@ -500,7 +501,7 @@ nav{
 
 .f{
     width: 60%;
-    height: 30%;
+    height: 40%;
     /* border: 2px solid; */
     margin-left: 50px;
     margin-top: 40px;
@@ -558,12 +559,13 @@ nav{
 
 .eve{
     text-align: center;
+    color: #4d4747;
 }
 
 /* page 3 */
 
 .rule{
-    height: 60vh;
+    min-height: 60vh;
     border-bottom: 2px solid gray;
     width: 90%;
     margin: auto;
@@ -573,5 +575,18 @@ nav{
 .rewards h1{
     font-size: 28px;
     font-weight: 700;
-    text-decoration: underline #7e22ce;
+    color: #4d4747;
+    padding-top: 20px;
+}
+
+.rewards ul{
+    line-height: 40px;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    font-size: large;
+}
+
+.rewards{
+    padding-left: 45px;
+    background-color: rgba(211, 211, 211, 0.159);
 }
